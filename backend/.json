@@ -1,0 +1,206 @@
+[
+  {
+    "general_request_data": {
+      "timestamp": "2025-03-02T00:24:48.474458",
+      "source_ip": 127,
+      "dest_ip": 7,
+      "source_port": 47550,
+      "dest_port": 80,
+      "request_method": "POST",
+      "requested_path": "/login",
+      "query_params": {},
+      "user_agent": "curl/8.10.1",
+      "referrer": "Unknown",
+      "http_status": 403
+    },
+    "traffic_ddos_monitoring": {
+      "total_requests_per_second": 1.0,
+      "packets_per_second": 150.0,
+      "packet_length": 40,
+      "traffic_volume_bytes_per_second": 6000.0,
+      "unique_ips": [
+        8
+      ],
+      "flagged_ddos_attacks": 0
+    },
+    "anomaly_detection_metrics": {
+      "path_entropy": 0,
+      "body_entropy": 0,
+      "url_length": 27,
+      "body_length": 25,
+      "single_quotes_count": 0,
+      "double_quotes_count": 0,
+      "dashes_count": 0,
+      "braces_count": 0,
+      "spaces_count": 4,
+      "sql_injection_patterns": 2,
+      "xss_patterns": 0,
+      "directory_traversal_attempts": 0,
+      "command_injection_count": 0,
+      "csrf_count": 0
+    },
+    "ml_attack_detection": {
+      "attack_class": "SQLi",
+      "ml_confidence_score": 0.19167505810788016,
+      "anomaly_score": 1.508619785308838,
+      "feature_contributions": {
+        "feature_0": 27.0,
+        "feature_1": 25.0,
+        "feature_2": 0.0,
+        "feature_3": 0.0,
+        "feature_4": 0.0,
+        "feature_5": 0.0,
+        "feature_6": 4.0,
+        "feature_7": 2.0,
+        "feature_8": 0.0,
+        "feature_9": 0.0,
+        "feature_10": 0.0,
+        "feature_11": 0.0
+      }
+    },
+    "log_performance_insights": {
+      "total_requests_handled": 1,
+      "normal_requests": 0,
+      "malicious_requests": 1,
+      "attack_detection_accuracy": null,
+      "average_processing_time": 1.3449146747589111,
+      "most_frequent_attack_patterns": []
+    }
+  },
+  {
+    "general_request_data": {
+      "timestamp": "2025-03-02T00:24:53.507090",
+      "source_ip": 198,
+      "dest_ip": 7,
+      "source_port": 55556,
+      "dest_port": 80,
+      "request_method": "POST",
+      "requested_path": "/login",
+      "query_params": {},
+      "user_agent": "curl/8.10.1",
+      "referrer": "Unknown",
+      "http_status": 200
+    },
+    "traffic_ddos_monitoring": {
+      "total_requests_per_second": 1.0,
+      "packets_per_second": 150.0,
+      "packet_length": 40,
+      "traffic_volume_bytes_per_second": 6000.0,
+      "unique_ips": [
+        8
+      ],
+      "flagged_ddos_attacks": 0
+    },
+    "anomaly_detection_metrics": {
+      "path_entropy": 0,
+      "body_entropy": 0,
+      "url_length": 27,
+      "body_length": 25,
+      "single_quotes_count": 0,
+      "double_quotes_count": 0,
+      "dashes_count": 0,
+      "braces_count": 0,
+      "spaces_count": 4,
+      "sql_injection_patterns": 2,
+      "xss_patterns": 0,
+      "directory_traversal_attempts": 0,
+      "command_injection_count": 0,
+      "csrf_count": 0
+    },
+    "ml_attack_detection": {
+      "attack_class": "DirectoryTraversal",
+      "ml_confidence_score": 0.6332388768293917,
+      "anomaly_score": 1.508619785308838,
+      "feature_contributions": {
+        "feature_0": 27.0,
+        "feature_1": 25.0,
+        "feature_2": 0.0,
+        "feature_3": 0.0,
+        "feature_4": 0.0,
+        "feature_5": 0.0,
+        "feature_6": 4.0,
+        "feature_7": 2.0,
+        "feature_8": 0.0,
+        "feature_9": 0.0,
+        "feature_10": 0.0,
+        "feature_11": 0.0
+      }
+    },
+    "log_performance_insights": {
+      "total_requests_handled": 1,
+      "normal_requests": 1,
+      "malicious_requests": 0,
+      "attack_detection_accuracy": null,
+      "average_processing_time": 1.3449146747589111,
+      "most_frequent_attack_patterns": []
+    }
+  },
+  {
+    "general_request_data": {
+      "timestamp": "2025-03-02T00:36:45.770131",
+      "source_ip": 84,
+      "dest_ip": 7,
+      "source_port": 27366,
+      "dest_port": 80,
+      "request_method": "GET",
+      "requested_path": "/login",
+      "query_params": {},
+      "user_agent": "curl/8.10.1",
+      "referrer": "Unknown",
+      "http_status": 403
+    },
+    "traffic_ddos_monitoring": {
+      "total_requests_per_second": 1.0,
+      "packets_per_second": 150.0,
+      "packet_length": 40,
+      "traffic_volume_bytes_per_second": 6000.0,
+      "unique_ips": [
+        8
+      ],
+      "flagged_ddos_attacks": 0
+    },
+    "anomaly_detection_metrics": {
+      "path_entropy": 0,
+      "body_entropy": 0,
+      "url_length": 27,
+      "body_length": 25,
+      "single_quotes_count": 0,
+      "double_quotes_count": 0,
+      "dashes_count": 0,
+      "braces_count": 0,
+      "spaces_count": 4,
+      "sql_injection_patterns": 2,
+      "xss_patterns": 0,
+      "directory_traversal_attempts": 0,
+      "command_injection_count": 0,
+      "csrf_count": 0
+    },
+    "ml_attack_detection": {
+      "attack_class": "None",
+      "ml_confidence_score": 0.114794380539023,
+      "anomaly_score": 1.508619785308838,
+      "feature_contributions": {
+        "feature_0": 27.0,
+        "feature_1": 25.0,
+        "feature_2": 0.0,
+        "feature_3": 0.0,
+        "feature_4": 0.0,
+        "feature_5": 0.0,
+        "feature_6": 4.0,
+        "feature_7": 2.0,
+        "feature_8": 0.0,
+        "feature_9": 0.0,
+        "feature_10": 0.0,
+        "feature_11": 0.0
+      }
+    },
+    "log_performance_insights": {
+      "total_requests_handled": 1,
+      "normal_requests": 0,
+      "malicious_requests": 1,
+      "attack_detection_accuracy": null,
+      "average_processing_time": 1.3449146747589111,
+      "most_frequent_attack_patterns": []
+    }
+  }
+]

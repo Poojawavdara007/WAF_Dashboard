@@ -1,0 +1,31 @@
+{
+  "anomaly_detection_threshold": 0.8,
+  "firewall_rules": [
+    {
+      "id": 1,
+      "ip": "192.168.1.100",
+      "action": "Block"
+    },
+    {
+      "id": 2,
+      "ip": "10.0.0.50",
+      "action": "Block"
+    },
+    {
+      "id": 3,
+      "ip": "192.10.2.1",
+      "action": "Block"
+    }
+  ],
+  "update_status": {
+    "status": "Installed",
+    "version": "1.2.3",
+    "message": "Security patch (version 1.2.3) has been installed successfully."
+  },
+  "notifications": {
+    "email": false,
+    "sms": false
+  }
+}
+
+   
